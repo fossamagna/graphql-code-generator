@@ -1,5 +1,19 @@
 # @graphql-codegen/cli
 
+## 3.1.0
+
+### Minor Changes
+
+- [#8893](https://github.com/dotansimha/graphql-code-generator/pull/8893) [`a118c307a`](https://github.com/dotansimha/graphql-code-generator/commit/a118c307a35bbb97b7cbca0f178a88276032a26c) Thanks [@n1ru4l](https://github.com/n1ru4l)! - It is no longer mandatory to declare an empty plugins array when using a preset
+
+### Patch Changes
+
+- [#9000](https://github.com/dotansimha/graphql-code-generator/pull/9000) [`4c422ccf6`](https://github.com/dotansimha/graphql-code-generator/commit/4c422ccf6384cfb0d0949ebe5567923973b1a044) Thanks [@renovate](https://github.com/apps/renovate)! - dependencies updates:
+  - Updated dependency [`@whatwg-node/fetch@^0.8.0` ↗︎](https://www.npmjs.com/package/@whatwg-node/fetch/v/0.8.0) (from `^0.6.0`, in `dependencies`)
+- Updated dependencies [[`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`a118c307a`](https://github.com/dotansimha/graphql-code-generator/commit/a118c307a35bbb97b7cbca0f178a88276032a26c)]:
+  - @graphql-codegen/core@3.0.1
+  - @graphql-codegen/plugin-helpers@4.1.0
+
 ## 3.0.0
 
 ### Major Changes

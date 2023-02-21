@@ -1,5 +1,30 @@
 # @graphql-codegen/client-preset
 
+## 2.1.0
+
+### Minor Changes
+
+- [#8893](https://github.com/dotansimha/graphql-code-generator/pull/8893) [`a118c307a`](https://github.com/dotansimha/graphql-code-generator/commit/a118c307a35bbb97b7cbca0f178a88276032a26c) Thanks [@n1ru4l](https://github.com/n1ru4l)! - It is no longer mandatory to declare an empty plugins array when using a preset
+
+### Patch Changes
+
+- [#8879](https://github.com/dotansimha/graphql-code-generator/pull/8879) [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491) Thanks [@renovate](https://github.com/apps/renovate)! - dependencies updates:
+
+  - Updated dependency [`tslib@~2.5.0` ↗︎](https://www.npmjs.com/package/tslib/v/2.5.0) (from `~2.4.0`, in `dependencies`)
+
+- [#8995](https://github.com/dotansimha/graphql-code-generator/pull/8995) [`fe2e9c7a5`](https://github.com/dotansimha/graphql-code-generator/commit/fe2e9c7a5f2731e06dd285e391936608dfa3fb51) Thanks [@charpeni](https://github.com/charpeni)! - Use `gqlTagName` for generated examples
+
+- [#8971](https://github.com/dotansimha/graphql-code-generator/pull/8971) [`6b6fe3cbc`](https://github.com/dotansimha/graphql-code-generator/commit/6b6fe3cbcc7de748754703adce0f62f3e070a098) Thanks [@n1ru4l](https://github.com/n1ru4l)! - Allow passing fragment documents to APIs like Apollos `readFragment`
+
+- Updated dependencies [[`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`8206b268d`](https://github.com/dotansimha/graphql-code-generator/commit/8206b268dfb485a748fd7783a163cb0ee9931491), [`a118c307a`](https://github.com/dotansimha/graphql-code-generator/commit/a118c307a35bbb97b7cbca0f178a88276032a26c), [`fe2e9c7a5`](https://github.com/dotansimha/graphql-code-generator/commit/fe2e9c7a5f2731e06dd285e391936608dfa3fb51), [`6b6fe3cbc`](https://github.com/dotansimha/graphql-code-generator/commit/6b6fe3cbcc7de748754703adce0f62f3e070a098), [`6b6fe3cbc`](https://github.com/dotansimha/graphql-code-generator/commit/6b6fe3cbcc7de748754703adce0f62f3e070a098)]:
+  - @graphql-codegen/add@4.0.1
+  - @graphql-codegen/gql-tag-operations@2.0.1
+  - @graphql-codegen/plugin-helpers@4.1.0
+  - @graphql-codegen/typed-document-node@3.0.1
+  - @graphql-codegen/typescript@3.0.1
+  - @graphql-codegen/typescript-operations@3.0.1
+  - @graphql-codegen/visitor-plugin-common@3.0.1
+
 ## 2.0.0
 
 ### Major Changes
